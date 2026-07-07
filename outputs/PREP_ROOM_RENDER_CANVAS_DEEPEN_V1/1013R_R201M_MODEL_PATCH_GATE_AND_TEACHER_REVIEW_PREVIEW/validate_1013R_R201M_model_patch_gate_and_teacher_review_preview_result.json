@@ -1,0 +1,211 @@
+{
+  "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+  "status": "PASS",
+  "decision": "PATCH_GATE_READY_FOR_TEACHER_REVIEW_PREVIEW",
+  "r201l定档": "PASS_WITH_NOTES",
+  "model_decision_boundary": "MODEL_USEFUL_AS_PATCH_CANDIDATE_NOT_MAIN_TEXT_OWNER",
+  "checks": {
+    "r201k_baseline_pass": true,
+    "r201i_contract_pass": true,
+    "r201l_pass_with_candidate_decision": true,
+    "patch_id_and_required_fields_present": true,
+    "provider_meta_ref_present": true,
+    "every_sample_has_proposed_patch": true,
+    "teacher_review_required_true": true,
+    "patch_status_enum_valid": true,
+    "one_based_path_normalization_traceable": true,
+    "invalid_patch_path_rejected": true,
+    "baseline_rollback_full": true,
+    "rejected_patch_not_in_preview": true,
+    "deferred_patch_not_in_preview": true,
+    "accepted_patch_preview_only": true,
+    "teacher_main_forbidden_sources_zero": true,
+    "engineering_term_in_teacher_main_zero": true,
+    "cross_topic_contamination_zero": true,
+    "model_patch_marked_candidate": true,
+    "no_formal_apply": true,
+    "no_write": true,
+    "no_R95": true,
+    "no_route_binding": true,
+    "no_R97B_rendering": true,
+    "py_compile_pass": true
+  },
+  "sample_results": [
+    {
+      "sample_id": "real_downpour_docx",
+      "lesson_label": "下雨啰",
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "provider_meta_present": true,
+      "patch_count": 8,
+      "gate_patch_count": 9,
+      "proposed_patch_count": 8,
+      "rejected_gate_patch_count": 1,
+      "path_normalized": [
+        {
+          "patch_id": "r201m-real_downpour_docx-p03",
+          "from": "episodes[2].teacher",
+          "to": "episodes[1].teacher"
+        },
+        {
+          "patch_id": "r201m-real_downpour_docx-p04",
+          "from": "episodes[2].evidence",
+          "to": "episodes[1].evidence"
+        },
+        {
+          "patch_id": "r201m-real_downpour_docx-p05",
+          "from": "episodes[3].teacher",
+          "to": "episodes[2].teacher"
+        },
+        {
+          "patch_id": "r201m-real_downpour_docx-p06",
+          "from": "episodes[5].teacher",
+          "to": "episodes[4].teacher"
+        },
+        {
+          "patch_id": "r201m-real_downpour_docx-p07",
+          "from": "episodes[6].talk",
+          "to": "episodes[5].talk"
+        },
+        {
+          "patch_id": "r201m-real_downpour_docx-p08",
+          "from": "episodes[6].evidence",
+          "to": "episodes[5].evidence"
+        }
+      ],
+      "invalid_path_probe_rejected": true,
+      "forbidden_hits": [],
+      "cross_topic_hits": [],
+      "simulation": {
+        "accepted": [
+          "r201m-real_downpour_docx-p01",
+          "r201m-real_downpour_docx-p02"
+        ],
+        "rejected": [
+          "r201m-real_downpour_docx-p03"
+        ],
+        "deferred": [
+          "r201m-real_downpour_docx-p04",
+          "r201m-real_downpour_docx-p05",
+          "r201m-real_downpour_docx-p06",
+          "r201m-real_downpour_docx-p07",
+          "r201m-real_downpour_docx-p08"
+        ]
+      },
+      "rollback_matches_baseline": true,
+      "rejected_patch_not_applied": true,
+      "deferred_patch_not_applied": true,
+      "artifacts": {
+        "patch_gate_list": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/patch_gate_list.json",
+        "teacher_review_simulation": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/teacher_review_simulation.json",
+        "diff_preview": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/diff_preview.md",
+        "baseline_teacher_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/baseline_teacher_snapshot.md",
+        "candidate_all_proposed_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/candidate_all_proposed_snapshot.md",
+        "accepted_only_preview_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/accepted_only_preview_snapshot.md",
+        "rollback_baseline_check": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/real_downpour_docx/rollback_baseline_check.json"
+      }
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "lesson_label": "旧鞋 / 足下生辉",
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=numbered_colon_old_shoes]",
+      "provider_meta_present": true,
+      "patch_count": 8,
+      "gate_patch_count": 9,
+      "proposed_patch_count": 8,
+      "rejected_gate_patch_count": 1,
+      "path_normalized": [],
+      "invalid_path_probe_rejected": true,
+      "forbidden_hits": [],
+      "cross_topic_hits": [],
+      "simulation": {
+        "accepted": [
+          "r201m-numbered_colon_old_shoes-p01",
+          "r201m-numbered_colon_old_shoes-p02"
+        ],
+        "rejected": [
+          "r201m-numbered_colon_old_shoes-p03"
+        ],
+        "deferred": [
+          "r201m-numbered_colon_old_shoes-p04",
+          "r201m-numbered_colon_old_shoes-p05",
+          "r201m-numbered_colon_old_shoes-p06",
+          "r201m-numbered_colon_old_shoes-p07",
+          "r201m-numbered_colon_old_shoes-p08"
+        ]
+      },
+      "rollback_matches_baseline": true,
+      "rejected_patch_not_applied": true,
+      "deferred_patch_not_applied": true,
+      "artifacts": {
+        "patch_gate_list": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/patch_gate_list.json",
+        "teacher_review_simulation": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/teacher_review_simulation.json",
+        "diff_preview": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/diff_preview.md",
+        "baseline_teacher_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/baseline_teacher_snapshot.md",
+        "candidate_all_proposed_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/candidate_all_proposed_snapshot.md",
+        "accepted_only_preview_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/accepted_only_preview_snapshot.md",
+        "rollback_baseline_check": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/numbered_colon_old_shoes/rollback_baseline_check.json"
+      }
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "lesson_label": "穿穿编编",
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=plain_segment_weaving]",
+      "provider_meta_present": true,
+      "patch_count": 8,
+      "gate_patch_count": 9,
+      "proposed_patch_count": 8,
+      "rejected_gate_patch_count": 1,
+      "path_normalized": [],
+      "invalid_path_probe_rejected": true,
+      "forbidden_hits": [],
+      "cross_topic_hits": [],
+      "simulation": {
+        "accepted": [
+          "r201m-plain_segment_weaving-p01",
+          "r201m-plain_segment_weaving-p02"
+        ],
+        "rejected": [
+          "r201m-plain_segment_weaving-p03"
+        ],
+        "deferred": [
+          "r201m-plain_segment_weaving-p04",
+          "r201m-plain_segment_weaving-p05",
+          "r201m-plain_segment_weaving-p06",
+          "r201m-plain_segment_weaving-p07",
+          "r201m-plain_segment_weaving-p08"
+        ]
+      },
+      "rollback_matches_baseline": true,
+      "rejected_patch_not_applied": true,
+      "deferred_patch_not_applied": true,
+      "artifacts": {
+        "patch_gate_list": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/patch_gate_list.json",
+        "teacher_review_simulation": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/teacher_review_simulation.json",
+        "diff_preview": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/diff_preview.md",
+        "baseline_teacher_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/baseline_teacher_snapshot.md",
+        "candidate_all_proposed_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/candidate_all_proposed_snapshot.md",
+        "accepted_only_preview_snapshot": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/accepted_only_preview_snapshot.md",
+        "rollback_baseline_check": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews/plain_segment_weaving/rollback_baseline_check.json"
+      }
+    }
+  ],
+  "outputs": {
+    "readme": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/README.md",
+    "model_patch_gate_contract": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_model_patch_gate_contract.json",
+    "teacher_review_preview_policy": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_teacher_review_preview_policy.md",
+    "patch_path_normalization_guard": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_patch_path_normalization_guard.md",
+    "patch_accept_reject_defer_simulation": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_patch_accept_reject_defer_simulation.json",
+    "baseline_vs_model_diff_previews": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_baseline_vs_model_diff_previews",
+    "candidate_visibility_policy": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_candidate_visibility_policy.md",
+    "rollback_to_baseline_report": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/r201m_rollback_to_baseline_report.md",
+    "validation_result": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW/validate_1013R_R201M_model_patch_gate_and_teacher_review_preview_result.json"
+  },
+  "boundary": {
+    "route_binding": false,
+    "r97b_rendering": false,
+    "formal_apply": false,
+    "write_database_feishu_memory": false,
+    "r95_export": false,
+    "baseline_overwrite": false
+  }
+}

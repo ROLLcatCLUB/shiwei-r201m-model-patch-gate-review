@@ -1,0 +1,46 @@
+{
+  "sample_id": "plain_segment_weaving",
+  "baseline_hash": "8ff8fc2e5333c6e30f0cbe5296aa8c7542d6eb87977b0cb8e8871c3cf7520957",
+  "rollback_hash": "8ff8fc2e5333c6e30f0cbe5296aa8c7542d6eb87977b0cb8e8871c3cf7520957",
+  "accepted_preview_hash": "274e573ba9e02029adc75e67165573330af5d946bd9cd7cf4d9bd65df6232ddf",
+  "rollback_matches_baseline": true,
+  "rejected_patch_not_applied": [
+    {
+      "patch_id": "r201m-plain_segment_weaving-p03",
+      "target_field_path": "episodes[0].teacher",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-plain_segment_weaving-invalid-path-probe",
+      "target_field_path": "episodes[999].teacher",
+      "not_applied": true
+    }
+  ],
+  "deferred_patch_not_applied": [
+    {
+      "patch_id": "r201m-plain_segment_weaving-p04",
+      "target_field_path": "episodes[1].teacher",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-plain_segment_weaving-p05",
+      "target_field_path": "episodes[1].student",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-plain_segment_weaving-p06",
+      "target_field_path": "episodes[4].teacher",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-plain_segment_weaving-p07",
+      "target_field_path": "episodes[4].evidence",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-plain_segment_weaving-p08",
+      "target_field_path": "preparation.body",
+      "not_applied": true
+    }
+  ]
+}

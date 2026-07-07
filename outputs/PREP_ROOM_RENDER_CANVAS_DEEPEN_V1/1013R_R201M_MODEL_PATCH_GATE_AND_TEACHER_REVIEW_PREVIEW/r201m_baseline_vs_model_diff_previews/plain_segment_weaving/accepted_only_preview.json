@@ -1,0 +1,198 @@
+{
+  "sample_id": "plain_segment_weaving",
+  "lesson_label": "穿穿编编",
+  "basis": {
+    "title": "一、本课依据",
+    "body": [
+      "本课围绕编织历史、经纬交织原理和纸条编织练习展开，让学生从实物观察进入基本方法体验。",
+      "原文提供导入、历史介绍、认识经纬、教师示范、学生练习和小结六个环节，教学主线应从文化认识走向方法操作。"
+    ],
+    "source_label": "由教学过程和原文证据反推；系统建议，需教师确认",
+    "teacher_review_required": true
+  },
+  "analysis": {
+    "title": "二、学情分析",
+    "body": [
+      "四年级学生能观察编织实物的纹理，也具备剪贴和纸条操作经验，但未必理解经线固定、纬线穿插形成图案的原理。",
+      "本课需要把历史介绍控制为短背景，把重点落到经纬关系、压一穿一方法和纸条练习中的手眼协调。"
+    ],
+    "source_label": "由教学过程和原文证据反推；系统建议，需教师确认",
+    "teacher_review_required": true
+  },
+  "objectives": {
+    "title": "三、教学目标",
+    "body": [
+      "学生能说出编织的1-2个历史应用（如席子、结绳记事），把编织与生活或记录联系起来。",
+      "学生能区分经线（竖向固定）和纬线（横向穿过），理解压一穿一形成交织纹样的原理。",
+      "学生能在底稿纸上完成一段纸条经纬交织练习，并在小结中说出一个操作要点或仍需改进的位置。"
+    ],
+    "source_label": "由教学过程和原文证据反推；系统建议，需教师确认",
+    "teacher_review_required": true
+  },
+  "key_points": {
+    "title": "四、教学重难点",
+    "body": [
+      "重点：认识经线与纬线的固定与穿插关系，掌握纸条'压一穿一'的基本编织方法。",
+      "难点：在连续编织中保持一上一下交替不乱，并能向同伴指出一处自己调整过的位置。"
+    ],
+    "source_label": "由教学过程和原文证据反推；系统建议，需教师确认",
+    "teacher_review_required": true
+  },
+  "preparation": {
+    "title": "五、教学准备",
+    "body": [
+      "教师准备竹编、藤编或纸编实物/图片，经纬示意图，纸条编织步骤示范材料。",
+      "学生准备彩纸条、底纸、剪刀和胶棒，注意工具使用安全。"
+    ],
+    "source_label": "由教学过程和原文证据反推；系统建议，需教师确认",
+    "teacher_review_required": true
+  },
+  "episodes": [
+    {
+      "index": 1,
+      "title": "导入",
+      "goal": "学生能从编织实物中发现交错纹理，产生学习编织方法的兴趣。",
+      "teacher": "出示竹编或藤编实物，让学生先看用途，再观察表面的穿插纹理。",
+      "student": "观察实物，说出在哪里见过类似编织物，并指出交错纹理。",
+      "talk": "它不是画出来的纹样，而是一条一条材料穿出来的。你能找到哪条在上、哪条在下吗？",
+      "hint": "小教提醒教师先检查经纬方向，再处理纸条松紧。",
+      "materials": "编织实物或图片、纸条、底纸、胶棒",
+      "scaffold": "用“经线固定、纬线穿插、上下交替”帮助学生检查编织步骤。",
+      "evidence": "学生能指出实物中的交错纹理。"
+    },
+    {
+      "index": 2,
+      "title": "历史介绍",
+      "goal": "学生能知道编织与生活、记录和装饰有关，理解它不是单纯手工小练习。",
+      "teacher": "用两三张图快速介绍编织从生活器物到纹样装饰的发展，不展开成大段讲授。",
+      "student": "听取背景，选择一个自己觉得有意思的编织用途或纹样来源。",
+      "talk": "古人编席子是为了解决生活需要，后来这些交错纹理也变成了装饰。你觉得哪一种最接近今天的纸编？",
+      "hint": "小教提醒教师先检查经纬方向，再处理纸条松紧。",
+      "materials": "编织实物或图片、纸条、底纸、胶棒",
+      "scaffold": "用“经线固定、纬线穿插、上下交替”帮助学生检查编织步骤。",
+      "evidence": "学生能说出一个编织的生活用途或文化背景。"
+    },
+    {
+      "index": 3,
+      "title": "认识经纬",
+      "goal": "学生能区分经线和纬线，理解纬线穿过经线形成交织关系。",
+      "teacher": "用示意图和纸条演示经线竖向固定、纬线横向穿插，强调上下交替。",
+      "student": "用手势或纸条模拟经纬方向，说出压一穿一的规律。",
+      "talk": "竖着不动的是经线，横着来回穿的是纬线。下一格如果在上面，后一格应该在哪里？",
+      "hint": "小教提醒教师先检查经纬方向，再处理纸条松紧。",
+      "materials": "编织实物或图片、纸条、底纸、胶棒",
+      "scaffold": "用“经线固定、纬线穿插、上下交替”帮助学生检查编织步骤。",
+      "evidence": "学生能正确指出经线、纬线，并说出上下交替规律。"
+    },
+    {
+      "index": 4,
+      "title": "教师示范",
+      "goal": "学生能看懂纸条编织的起步、穿插和收边方法。",
+      "teacher": "分步示范固定经线、穿入纬线、压一穿一和整理边缘，控制速度让学生看清手法。",
+      "student": "跟随示范在草稿纸上试做一到两步，并提出不清楚的位置。",
+      "talk": "这一条穿过去时不要急着粘，先检查是不是一上一下交替，再把纸条推整齐。",
+      "hint": "小教提醒教师先检查经纬方向，再处理纸条松紧。",
+      "materials": "编织实物或图片、纸条、底纸、胶棒",
+      "scaffold": "用“经线固定、纬线穿插、上下交替”帮助学生检查编织步骤。",
+      "evidence": "学生能完成一段压一穿一试排。"
+    },
+    {
+      "index": 5,
+      "title": "学生练习",
+      "goal": "学生能独立完成一段纸条编织，并调整纸条松紧和排列。",
+      "teacher": "巡视纸条方向、上下交替和边缘整理，针对错位处做局部示范。",
+      "student": "完成纸条编织练习，检查是否有连续压错或缝隙过大的问题。",
+      "talk": "先别急着贴牢，沿着这一行检查：有没有连续两次都在上面？哪里需要推紧一点？",
+      "hint": "小教提醒教师先检查经纬方向，再处理纸条松紧。",
+      "materials": "编织实物或图片、纸条、底纸、胶棒",
+      "scaffold": "用“经线固定、纬线穿插、上下交替”帮助学生检查编织步骤。",
+      "evidence": "作品中能看到经纬交织关系，且学生能指出一处调整过的地方。"
+    },
+    {
+      "index": 6,
+      "title": "小结",
+      "goal": "学生能用自己的话说出经纬关系和一个编织操作要点。",
+      "teacher": "组织学生展示练习片段，围绕经线、纬线、压一穿一和整理边缘做小结。",
+      "student": "展示练习，说出自己学会的一个方法和仍需改进的一处。",
+      "talk": "今天你不是只完成了一张纸编，而是学会了经线和纬线怎样合作。你最容易出错的是哪一步？",
+      "hint": "小教提醒教师先检查经纬方向，再处理纸条松紧。",
+      "materials": "编织实物或图片、纸条、底纸、胶棒",
+      "scaffold": "用“经线固定、纬线穿插、上下交替”帮助学生检查编织步骤。",
+      "evidence": "学生能说出一个经纬关系或操作要点。"
+    }
+  ],
+  "assessment": [
+    "认知证据：学生能区分经线和纬线。",
+    "操作证据：纸条编织练习体现压一穿一的上下交替。",
+    "表达证据：学生能说出一个编织操作要点或困难。"
+  ],
+  "confirm_groups": {
+    "必须确认": [
+      "教材版本、册次、页码和学校实际进度需教师确认。",
+      "本课材料、工具数量和安全要求需按班级实际确认。",
+      "纸条尺寸、剪刀和胶棒使用规则需由教师确认。"
+    ],
+    "建议确认": [
+      "教学目标、重难点和准备为系统候选，需教师按学生情况调整。",
+      "关键话术为系统建议，需教师按自己的课堂语言改写。"
+    ],
+    "可折叠诊断": [
+      "本轮仅生成教师可读候选快照，不进入正式备课本。"
+    ]
+  },
+  "r201m_preview_metadata": {
+    "candidate_patch_preview_only": true,
+    "teacher_review_required": true,
+    "formal_apply_enabled": false,
+    "write_enabled": false,
+    "route_bound": false,
+    "render_bound": false,
+    "applied_patches": [
+      {
+        "patch_id": "r201m-plain_segment_weaving-p01",
+        "target_field_path": "objectives.body"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-p02",
+        "target_field_path": "key_points.body"
+      }
+    ],
+    "skipped_patches": [
+      {
+        "patch_id": "r201m-plain_segment_weaving-p03",
+        "status": "rejected",
+        "target_field_path": "episodes[0].teacher"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-p04",
+        "status": "deferred",
+        "target_field_path": "episodes[1].teacher"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-p05",
+        "status": "deferred",
+        "target_field_path": "episodes[1].student"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-p06",
+        "status": "deferred",
+        "target_field_path": "episodes[4].teacher"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-p07",
+        "status": "deferred",
+        "target_field_path": "episodes[4].evidence"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-p08",
+        "status": "deferred",
+        "target_field_path": "preparation.body"
+      },
+      {
+        "patch_id": "r201m-plain_segment_weaving-invalid-path-probe",
+        "status": "rejected",
+        "target_field_path": "episodes[999].teacher"
+      }
+    ]
+  }
+}

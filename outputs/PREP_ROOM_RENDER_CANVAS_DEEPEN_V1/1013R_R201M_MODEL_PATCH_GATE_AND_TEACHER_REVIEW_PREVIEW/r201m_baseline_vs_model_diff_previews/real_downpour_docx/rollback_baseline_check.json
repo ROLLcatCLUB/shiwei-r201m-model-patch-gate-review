@@ -1,0 +1,46 @@
+{
+  "sample_id": "real_downpour_docx",
+  "baseline_hash": "acc019d920edc690764af19b4ba2f401d2282b91672a5e1d6f39fd451500d8d9",
+  "rollback_hash": "acc019d920edc690764af19b4ba2f401d2282b91672a5e1d6f39fd451500d8d9",
+  "accepted_preview_hash": "790847c737c2f4170e370ec5e432722d49cc4008aec44049cffc13b60e718c60",
+  "rollback_matches_baseline": true,
+  "rejected_patch_not_applied": [
+    {
+      "patch_id": "r201m-real_downpour_docx-p03",
+      "target_field_path": "episodes[1].teacher",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-invalid-path-probe",
+      "target_field_path": "episodes[999].teacher",
+      "not_applied": true
+    }
+  ],
+  "deferred_patch_not_applied": [
+    {
+      "patch_id": "r201m-real_downpour_docx-p04",
+      "target_field_path": "episodes[1].evidence",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p05",
+      "target_field_path": "episodes[2].teacher",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p06",
+      "target_field_path": "episodes[4].teacher",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p07",
+      "target_field_path": "episodes[5].talk",
+      "not_applied": true
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p08",
+      "target_field_path": "episodes[5].evidence",
+      "not_applied": true
+    }
+  ]
+}

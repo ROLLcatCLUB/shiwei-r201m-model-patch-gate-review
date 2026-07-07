@@ -1,0 +1,67 @@
+{
+  "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+  "review_state_contract": [
+    "accepted",
+    "deferred",
+    "proposed",
+    "rejected"
+  ],
+  "samples": [
+    {
+      "sample_id": "real_downpour_docx",
+      "accepted_patch_ids": [
+        "r201m-real_downpour_docx-p01",
+        "r201m-real_downpour_docx-p02"
+      ],
+      "rejected_patch_ids": [
+        "r201m-real_downpour_docx-p03"
+      ],
+      "deferred_patch_ids": [
+        "r201m-real_downpour_docx-p04",
+        "r201m-real_downpour_docx-p05",
+        "r201m-real_downpour_docx-p06",
+        "r201m-real_downpour_docx-p07",
+        "r201m-real_downpour_docx-p08"
+      ],
+      "invalid_path_probe_rejected": true
+    },
+    {
+      "sample_id": "numbered_colon_old_shoes",
+      "accepted_patch_ids": [
+        "r201m-numbered_colon_old_shoes-p01",
+        "r201m-numbered_colon_old_shoes-p02"
+      ],
+      "rejected_patch_ids": [
+        "r201m-numbered_colon_old_shoes-p03"
+      ],
+      "deferred_patch_ids": [
+        "r201m-numbered_colon_old_shoes-p04",
+        "r201m-numbered_colon_old_shoes-p05",
+        "r201m-numbered_colon_old_shoes-p06",
+        "r201m-numbered_colon_old_shoes-p07",
+        "r201m-numbered_colon_old_shoes-p08"
+      ],
+      "invalid_path_probe_rejected": true
+    },
+    {
+      "sample_id": "plain_segment_weaving",
+      "accepted_patch_ids": [
+        "r201m-plain_segment_weaving-p01",
+        "r201m-plain_segment_weaving-p02"
+      ],
+      "rejected_patch_ids": [
+        "r201m-plain_segment_weaving-p03"
+      ],
+      "deferred_patch_ids": [
+        "r201m-plain_segment_weaving-p04",
+        "r201m-plain_segment_weaving-p05",
+        "r201m-plain_segment_weaving-p06",
+        "r201m-plain_segment_weaving-p07",
+        "r201m-plain_segment_weaving-p08"
+      ],
+      "invalid_path_probe_rejected": true
+    }
+  ],
+  "preview_only": true,
+  "write_enabled": false
+}

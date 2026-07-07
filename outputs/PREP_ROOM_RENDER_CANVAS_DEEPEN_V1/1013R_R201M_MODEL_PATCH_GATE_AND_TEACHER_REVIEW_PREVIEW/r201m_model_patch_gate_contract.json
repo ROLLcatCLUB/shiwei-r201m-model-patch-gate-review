@@ -1,0 +1,45 @@
+{
+  "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+  "purpose": "Gate R201L model candidate patches before any teacher-readable preview use.",
+  "model_ownership": "candidate_patch_only",
+  "main_text_owner": "R201K/R201I single_lesson_template baseline until teacher accepts preview-only patch.",
+  "patch_required_fields": [
+    "patch_id",
+    "target_field_path",
+    "before",
+    "after",
+    "reason",
+    "source_basis",
+    "provider_meta_ref",
+    "teacher_review_required",
+    "patch_status"
+  ],
+  "allowed_patch_status": [
+    "accepted",
+    "deferred",
+    "proposed",
+    "rejected"
+  ],
+  "allowed_target_paths": [
+    "analysis.body",
+    "assessment",
+    "basis.body",
+    "key_points.body",
+    "objectives.body",
+    "preparation.body",
+    "episodes[n].goal|teacher|student|talk|hint|materials|scaffold|evidence"
+  ],
+  "teacher_review_required": true,
+  "invalid_path_policy": "reject",
+  "candidate_output_policy": "never overwrite baseline; accepted patch enters preview only",
+  "route_binding": false,
+  "r97b_rendering": false,
+  "formal_apply": false,
+  "write_enabled": false,
+  "r95_export": false,
+  "provider_meta_refs_available": [
+    "numbered_colon_old_shoes",
+    "plain_segment_weaving",
+    "real_downpour_docx"
+  ]
+}

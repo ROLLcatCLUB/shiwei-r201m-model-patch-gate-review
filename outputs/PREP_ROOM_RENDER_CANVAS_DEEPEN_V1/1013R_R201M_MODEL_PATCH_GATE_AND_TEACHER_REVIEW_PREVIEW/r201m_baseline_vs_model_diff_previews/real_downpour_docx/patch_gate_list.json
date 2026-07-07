@@ -1,0 +1,330 @@
+{
+  "sample_id": "real_downpour_docx",
+  "patches": [
+    {
+      "patch_id": "r201m-real_downpour_docx-p01",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "objectives.body",
+      "target_field_path": "objectives.body",
+      "path_normalized": false,
+      "operation": "rewrite",
+      "before": [
+        "学生能观察不同类型雨的图片，说出至少两种雨在线条方向、疏密或节奏上的差异。",
+        "学生能用细头水笔在线稿或画面中表现一种雨景，并说明一处线条处理与雨的感受之间的关系。",
+        "学生能在分享中听取同伴建议，完成一处线条、画面节奏或情感表达的调整。"
+      ],
+      "baseline_value_at_target": [
+        "学生能观察不同类型雨的图片，说出至少两种雨在线条方向、疏密或节奏上的差异。",
+        "学生能用细头水笔在线稿或画面中表现一种雨景，并说明一处线条处理与雨的感受之间的关系。",
+        "学生能在分享中听取同伴建议，完成一处线条、画面节奏或情感表达的调整。"
+      ],
+      "after": [
+        "学生能在观察细雨、暴雨、雷阵雨等图片后，说出至少两种雨在线条方向、疏密或节奏上的差异，并能用“线更密”“线更斜”“线更乱”等词语指认。",
+        "学生能用细头水笔在线稿中表现一种雨景，并在作品中指出一处线条处理与雨景感受（安静/急/清凉等）之间的关系。",
+        "学生能在分享中听取一条同伴建议，并在作品上完成一处线条、画面节奏或情感表达的具体调整。"
+      ],
+      "reason": "baseline 的 objectives 偏概括；上传原文中观察雨环节明确要求“细雨/暴雨/雷阵雨”三种比较，线描练习环节明确要求用“细头水笔”，分享小结要求“同伴建议完成一处修订”，把这些上传证据补进目标，使其更具体、可被一线教师按原文执行。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 0,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p02",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "key_points.body",
+      "target_field_path": "key_points.body",
+      "path_normalized": false,
+      "operation": "rewrite",
+      "before": [
+        "重点：观察雨的形态差异，并用长短、疏密、方向和节奏不同的线条表现雨景。",
+        "难点：把雨天情绪和诗意感受转化为画面中的线条组织，而不是只画相同的斜线。"
+      ],
+      "baseline_value_at_target": [
+        "重点：观察雨的形态差异，并用长短、疏密、方向和节奏不同的线条表现雨景。",
+        "难点：把雨天情绪和诗意感受转化为画面中的线条组织，而不是只画相同的斜线。"
+      ],
+      "after": [
+        "重点：观察细雨、暴雨、雷阵雨等不同雨的形态差异，并用长短、疏密、方向和节奏不同的线条表现雨景。",
+        "难点：把雨天情绪和诗意感受转化为画面中的线条组织，避免全班都画成同一组斜线，并能说清自己选择某种线条的理由。",
+        "评价重点：学生能否在作品中找到一处线条处理来支持自己对“哪种雨”的判断。"
+      ],
+      "reason": "baseline 的 key_points 没有把上传原文中明确的“细雨/暴雨/雷阵雨”三种雨势和“细头水笔”写进去，也没有把“说清选择理由”这条隐性重点写出，候选版本补这三处，使重点与原文流程一致；其中加入“评价重点”属于系统对上传依据的归纳，仍需教师确认。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 1,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p03",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[2].teacher",
+      "target_field_path": "episodes[1].teacher",
+      "path_normalized": true,
+      "operation": "augment",
+      "before": [
+        "用图片对比不同雨势，引导学生从线条方向、长短、密度和画面节奏观察，而不是只说“雨很大”。"
+      ],
+      "baseline_value_at_target": "用图片对比不同雨势，引导学生从线条方向、长短、密度和画面节奏观察，而不是只说“雨很大”。",
+      "after": [
+        "用图片对比细雨、暴雨、雷阵雨三种雨势，先让学生自由说出看到了什么，再把观察拉回线条方向、长短、密度和画面节奏；不要停在“雨很大”这种笼统描述。"
+      ],
+      "reason": "baseline 在观察雨环节的 teacher 描述较泛；上传原文教师组织明确写到“PPT展示不同类型雨的图片（细雨/暴雨/雷阵雨）”，候选把三种雨名和“先自由说再回到线条”的两步法补上，更贴近原文教学推进。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 2,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p04",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[2].evidence",
+      "target_field_path": "episodes[1].evidence",
+      "path_normalized": true,
+      "operation": "rewrite",
+      "before": [
+        "学生能说出一种雨势对应的线条特点。"
+      ],
+      "baseline_value_at_target": "学生能说出一种雨势对应的线条特点。",
+      "after": [
+        "学生能指着图片中的一种雨势，说出至少一条对应的线条特点（如“线更斜”“线更密”“线更短”）。"
+      ],
+      "reason": "baseline 的 evidence 只要求“说出一种雨势对应的线条特点”，没有指明是否要“指着图片说”和用什么词语描述；候选把这两个具体要求补上，便于教师在课堂直接判断学生是否达标；该细化基于上传原文中“学生动作：观察图片，讨论不同类型雨的视觉区别”，仍需教师确认是否符合本班学情。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 3,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p05",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[3].teacher",
+      "target_field_path": "episodes[2].teacher",
+      "path_normalized": true,
+      "operation": "augment",
+      "before": [
+        "朗读雨的诗句，让学生先听感受，再把诗意词语转成画面线条的轻重和疏密。"
+      ],
+      "baseline_value_at_target": "朗读雨的诗句，让学生先听感受，再把诗意词语转成画面线条的轻重和疏密。",
+      "after": [
+        "朗读一首关于雨的童诗或古诗（原文示例为《太阳雨》，可由教师另选），先让学生闭眼听感受，再请他们用“轻/重/密/疏”这类词转译诗意；不要直接告诉学生用哪种线条。"
+      ],
+      "reason": "上传原文教师组织明确写到“朗读一首关于雨的童诗或古诗（可选：《太阳雨》等）”，并要求“提问：诗人笔下的雨是什么情感？这和你们刚才说的感受一样吗”。baseline 没有写出教师用诗的具体来源和“先听后译”的两步法，候选补这两处，使环节推进与原文一致；诗句选篇仍需教师按年级和教材版本确认。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 4,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p06",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[5].teacher",
+      "target_field_path": "episodes[4].teacher",
+      "path_normalized": true,
+      "operation": "augment",
+      "before": [
+        "巡视时先问学生画的是哪种雨，再看线条是否支持这个判断，必要时示范局部修改。"
+      ],
+      "baseline_value_at_target": "巡视时先问学生画的是哪种雨，再看线条是否支持这个判断，必要时示范局部修改。",
+      "after": [
+        "发放雨景学习单（线稿底稿），让学生先在底稿上口头或小字标注自己要画的是细雨、暴雨还是雷阵雨，再开始用细头水笔作画；巡视时先问学生“画的是哪种雨”，再看线条方向、疏密、情感表达是否支持这个判断，必要时只示范局部修改，不替学生重画。"
+      ],
+      "reason": "上传原文教师组织明确写到“发放雨景学习单（线稿底稿），学生在底稿上用细头水笔画雨景。先确定要画哪种雨，再开始创作。老师巡视，关注：线条方向、疏密变化、情感表达”。baseline 没有把“先确定画哪种雨”和“线稿底稿”写入 teacher，候选补这三处，使巡视和练习环节要求与原文一致；属于系统对上传依据的归纳，仍需教师确认。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 5,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p07",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[6].talk",
+      "target_field_path": "episodes[5].talk",
+      "path_normalized": true,
+      "operation": "rewrite",
+      "before": [
+        "请你不要只说好看，说一说这组线条为什么像你想表现的那种雨。"
+      ],
+      "baseline_value_at_target": "请你不要只说好看，说一说这组线条为什么像你想表现的那种雨。",
+      "after": [
+        "请你不要只说“像不像”或“好不好看”，请用手指着作品里的一处线条，说明它为什么能表现你想画的那种雨；如果同伴给了建议，请你在作品上做出一处具体修改再回头说改了什么。"
+      ],
+      "reason": "上传原文教师组织明确写到“请学生指着作品说明自己抓住了哪个观察角度或细节，再用同伴建议完成一处修订”，小教提醒也指出“学生可能只能说像不像或好不好看，不能说明作品中的观察证据”。baseline 的 talk 只写了“不要只说好看”，候选把“指着作品说明”和“做出一处具体修改”补进去，更贴近原文分享小结的推进；属于系统对上传依据的归纳，仍需教师按自己课堂语言改写。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 6,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-p08",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[6].evidence",
+      "target_field_path": "episodes[5].evidence",
+      "path_normalized": true,
+      "operation": "rewrite",
+      "before": [
+        "学生能用作品中的一处线条作为表达雨景感受的证据。"
+      ],
+      "baseline_value_at_target": "学生能用作品中的一处线条作为表达雨景感受的证据。",
+      "after": [
+        "学生能指着作品中至少一处线条，说明它对应的雨势类型和情感（如“这是细雨，所以我用了短而稀的线”）；并且在同伴建议下完成了一处具体修改。"
+      ],
+      "reason": "baseline 的 evidence 只要求“用一处线条作为证据”，没有覆盖“指着作品说”“说明雨势类型和情感”“完成一处具体修改”三个上传原文要求。候选把三条都补进 evidence，便于教师直接对照评估；属于系统对上传依据的归纳，仍需教师确认是否过高估计四年级达成度。",
+      "source_basis": [
+        "uploaded_source_excerpt",
+        "source_extraction_excerpt",
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "proposed",
+      "gate_issues": [],
+      "review_note": "模型候选补丁。教师接受前不得替代 baseline；接受后仍只进入 preview。",
+      "status_history": [
+        {
+          "status": "proposed",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "valid candidate patch"
+        }
+      ],
+      "source_patch_index": 7,
+      "sample_index": 0
+    },
+    {
+      "patch_id": "r201m-real_downpour_docx-invalid-path-probe",
+      "sample_id": "real_downpour_docx",
+      "target_field_path_original": "episodes[999].teacher",
+      "target_field_path": "episodes[999].teacher",
+      "path_normalized": false,
+      "operation": "rewrite",
+      "before": null,
+      "baseline_value_at_target": null,
+      "after": "This probe must never enter teacher preview.",
+      "reason": "Synthetic guard probe proving invalid patch paths fail closed.",
+      "source_basis": [
+        "R201K_baseline"
+      ],
+      "provider_meta_ref": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R201L_REAL_MODEL_UPLOAD_LESSON_QUALITY_SANDBOX/r201l_model_call_log_sanitized.json#calls[sample_id=real_downpour_docx]",
+      "teacher_review_required": true,
+      "patch_status": "rejected",
+      "gate_issues": [
+        "invalid_target_field_path"
+      ],
+      "review_note": "Synthetic guard probe only; not a model patch.",
+      "status_history": [
+        {
+          "status": "rejected",
+          "stage": "1013R_R201M_MODEL_PATCH_GATE_AND_TEACHER_REVIEW_PREVIEW",
+          "reason": "invalid target path rejected by path guard"
+        }
+      ],
+      "synthetic_guard_probe": true,
+      "baseline_episode_count": 6
+    }
+  ]
+}
